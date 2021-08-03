@@ -1,0 +1,484 @@
+html, body {
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url("../fontes/Gilroy/Gilroy-ExtraBold.otf");
+}
+
+header {
+    max-height: 50px;
+    background: rgba(0,0,0,.4);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 999
+}
+
+#container-cabecalho {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.container--img-cabecalho {
+    padding-left: 25px;
+}
+
+.img-cabecalho {
+    width: 150px;
+    padding-left: 18px;
+}
+
+body {
+    font-family: gilroy;
+    background-color: #030328;
+}
+
+.container-login {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    color: #DCDCDC;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.desconto {
+    font-size: 20px;
+}
+
+.login {
+    padding-left: 40px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.entrar {
+    padding-right: 17px;
+}
+
+.aproveite {
+    background-color: #b535f6;
+    color: #fff;
+    border-radius: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+img {
+    width: 100%;
+}
+
+#sub-header {
+    position: relative;
+}
+
+.fundo-subheader {
+    padding-top: 50px;
+}
+
+.img-subheader {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-subheader div {
+    max-width: 70%;
+    text-align: center;
+}
+
+.oferta {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.img-subheader a.aproveite {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 4px 30px;
+    letter-spacing: .1em;
+}
+
+.img-subheader div img {
+    margin-bottom: 30px;
+}
+
+h3, h4, h5, p , a{
+    color:#ffffff;
+}
+
+.texto-video {
+    text-align: center;
+    font-size: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex: 0.8;
+}
+
+#container-video {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    background: #191970;
+}
+
+.borda-video {
+    border: 2px solid transparent;
+    border-color: rgba(154,53,239,0.5);
+    height: 265px;
+    margin-top: -25px;
+    padding: 15px;
+}
+
+#container-video > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;;
+    max-width: 1500px;
+    margin: auto;
+    height: 240px;
+}
+
+#container-video div h3 {
+    margin:10px;
+    font-size: 2.7rem;
+}
+
+#container-video div p {
+    margin:0;
+    font-size: 1.6rem;
+}
+
+#carousel {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#carousel div {
+    width: 100%;
+}
+
+#carousel div h3 {
+    font-size: 30px;
+}
+
+#carousel .img-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#carousel div img {
+    max-width: 250px;
+}
+
+#carousel div p {
+    color: gray;
+}
+
+#experiencia {
+    padding-top: 50px;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#experiencia div h4 {
+    font-size: 33px;
+}
+
+#experiencia .sub-container1 p {
+    font-size: 13px;
+    margin-top: -35px;
+    margin-bottom: 25px; 
+}
+
+#experiencia .sub-container1 {
+    flex-direction: column;
+    margin: auto;
+    height: 900px;
+    padding-bottom: 70px;
+}
+
+#experiencia .sub-container2 {
+    display: flex;
+    font-size: 25px;
+}
+
+#experiencia .sub-container2 div {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#experiencia .sub-container2 div::before {
+    background: #FF00E5;
+    content:"";
+    display: inline-block;
+    height: 2px;
+    width: 65px;
+    margin-bottom: 15px;
+}
+
+#experiencia .sub-container3 div {
+    display: flex;
+    align-items: center;
+}
+
+#experiencia .sub-container3 div h5 {
+    font-size: 40px;
+    width: 100%;;
+}
+
+#aproveite-agora {
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    background: url("../img/Launch-Background-promo-DSK-2x.png");
+}
+
+.sub-container-aproveite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#aproveite-agora .sub-container-aproveite img {
+    max-width: 30%;
+}
+
+#aproveite-agora .sub-container-aproveite a {
+    font-size: 15px;
+    margin: 20px;
+    background: linear-gradient( 345deg, rgba(73,12,176,1) 0%, rgba(155,52,239,1) 33%, rgba(255,255,255,0) 66%, rgba(255,255,255,0) 100% );
+    letter-spacing: 3px;
+    transition: all 0.5s !important;
+    background-position: 99% 50%;
+    background-size: 400% 400%;
+    overflow: hidden;
+    border-color: transparent;
+    border-style: solid;
+}
+
+#aproveite-agora .sub-container-aproveite a:hover {
+    background-position: 1% 50%;
+    transition: all 0.5s !important;
+    color: #fff;
+    border-color: #c600ff;
+}
+
+#curta {
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.container-series {
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.series {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 630px;
+}
+
+.lista-series {
+    flex: 0 0 200px;
+}
+
+#curta .series .lista-series img {
+    border: 1px solid #5b1ce6;
+    border-radius: .3rem;
+    box-shadow: 30px 30px 60px rgb(255 0 100 / 20%), -30px -30px 60px rgb(0 100 255 / 20%);
+    background-image: radial-gradient( rgba( 91, 28, 230, .5));
+}
+
+.assista-agora {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#curta .container-series .assista-agora p {
+    font-size: 30px;
+}
+
+#curta .container-series .assista-agora .assista {
+    font-size: 30px;
+    letter-spacing: 5px;
+    border: 5px solid #ffffff;
+    background: #ffffff;
+    color: #000000;
+    padding: 5px 20px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+#dispositivos {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#dispositivos .sub-container-disp {
+    max-width: 1600px;
+    width: 100%;
+}
+
+#dispositivos .sub-container-disp .container-disp {
+    text-align: center;
+}
+
+#dispositivos .sub-container-disp .container-disp h3 {
+    font-size: 30px;
+}
+
+#dispositivos .sub-container-disp .container-disp p {
+    margin-top: -15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#dispositivos .sub-container-disp .disp {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#dispositivos .sub-container-disp .disp .lista-disp {
+    font-size: 25px;
+}
+
+#duvida { 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#duvida .sub-container-duvida {
+    max-width: 1500px;
+    width: 100%;
+}
+
+#duvida .sub-container-duvida h4 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+#duvida .sub-container-duvida .container-duvida {
+    font-size: 28px;
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: space-between;
+}
+
+.fa-plus {
+    color: #9e86ff;
+    height: 100%;
+    display: flex;
+    align-self: center;
+}
+
+#duvida .sub-container-duvida .container-duvida p {
+    color: rgb(158, 134, 255);
+}
+
+footer {
+    max-width: 1550px;
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+footer h6, footer p {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+footer .direitos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+footer .direitos .container-direitos {
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+footer .direitos a {
+    color: #9e86ff;
+    letter-spacing: .05em;
+}
+
+footer .direitos p {
+    color: #9e86ff;
+    letter-spacing: .05em;
+}
+
+footer .direitos .container-direitos a {
+    text-transform: uppercase;
+}
+
+footer .direitos .termos {
+    font-size: 10px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+footer .direitos .reservados {
+    font-size: 13px;
+}
+
+footer .direitos .redes-sociais {
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 50px;
+    display: flex;
+    padding-bottom: 30px;
+}
