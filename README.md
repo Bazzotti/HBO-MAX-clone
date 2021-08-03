@@ -1,2 +1,2 @@
 # HBO-MAX-clone
-Fiz um clone da tela da HBO max para praticar, utilizando somente HTML e CSS, sem ser responsivo
+Clone do site da HBO max para colocar em prática os estudos. Desenvolvido com HTML/CSS.
